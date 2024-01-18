@@ -658,14 +658,21 @@ input{
     display:inline;
 }
 .profile{
-   display: grid;
+    display: flex;
+    gap: 2rem;
+    padding: 2rem;
+}
+.profile h1{
+    color: rgb(163, 42, 42);
 }
 .change_profile{
+    margin-top: 40px;
     font-size: 1.5rem;
     color: var(--light-white);
     display: inline;
 }
 .change_password{
+    margin-top: 40px;
     font-size: 1.5rem;
     color: var(--light-white);
     display: inline;
