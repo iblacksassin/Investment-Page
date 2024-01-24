@@ -439,76 +439,6 @@ section{
     background-clip: text;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* Media Queries*/
-@media (max-width:768px){
-
-    body{
-        padding-bottom: 7rem;
-    }
-    .navbar{
-        bottom: 0;
-    }
-    .navbar .nav{
-        border-bottom: 0;
-        border-left: 0;
-        border-right: 0;
-        box-shadow: none;
-        border-radius: 0;
-        padding: .5rem 1rem;
-        width: 100%;
-    }
-    .navbar .nav a{
-        padding: .5rem;
-
-    }
-    .navbar .nav a span{
-        font-size: 1.5rem;
-
-    }
-    .navbar .nav a i{
-        display: block;
-        font-size: 3rem;
-        margin-bottom: .5rem;
-    }
-    .navbar .nav a:hover{
-        background: none;
-    }
-    .navbar .nav a:hover span{
-        color: coral;
-    }
-    .home .flex .content h3{
-        font-size: 2.5rem;
-    }
-}
-
-@media (max-width:450px){
-    html{
-        -webkit-flow-into: 50%;
-    }
-}
-
-
-
-
-
-
-
-
 .page{
     display: grid;
     text-align: center;
@@ -576,7 +506,7 @@ section{
     border-radius: 30px;
     background: rgba(0, 0, 124, 0.505);
     padding: 4rem 4.5rem;
-    width: 700px;
+    width: 355px;
     background-color: rgb(0, 0, 56);
     border-radius: .5rem;
 }
@@ -589,7 +519,7 @@ input{
     background: rgb(33, 33, 88);
     border-radius: 20px;
     padding: 10px;
-    width: 350px;
+    width: 290px;
     color: var(--light-white);
 }
 .withdraw{
@@ -605,7 +535,7 @@ input{
     border-radius: 30px;
     background: rgba(0, 0, 124, 0.505);
     padding: 3rem 2.5rem;
-    width: 300px;
+    width: 350px;
     background-color: rgb(0, 0, 56);
     border-radius: .5rem;
 }
@@ -621,9 +551,12 @@ input{
     border-radius: 30px;
     background: rgba(0, 0, 124, 0.505);
     padding: 4rem 4.5rem;
-    width: 450px;
+    width: 350px;
     background-color: rgb(0, 0, 56);
     border-radius: .5rem;
+}
+.with{
+    width: 250px;
 }
 .signup{
     list-style: none;
@@ -658,7 +591,7 @@ input{
     display:inline;
 }
 .profile{
-    display: flex;
+    display:grid;
     gap: 2rem;
     padding: 2rem;
 }
@@ -677,3 +610,52 @@ input{
     color: var(--light-white);
     display: inline;
 }
+
+/* Media Queries*/
+@media (max-width:768px){
+
+    body{
+        padding-bottom: 7rem;
+    }
+    .navbar{
+        bottom: 0;
+    }
+    .navbar .nav{
+        border-bottom: 0;
+        border-left: 0;
+        border-right: 0;
+        box-shadow: none;
+        border-radius: 0;
+        padding: .5rem 1rem;
+        width: 100%;
+    }
+    .navbar .nav a{
+        padding: .5rem;
+
+    }
+    .navbar .nav a span{
+        font-size: 1.5rem;
+
+    }
+    .navbar .nav a i{
+        display: block;
+        font-size: 3rem;
+        margin-bottom: .5rem;
+    }
+    .navbar .nav a:hover{
+        background: none;
+    }
+    .navbar .nav a:hover span{
+        color: coral;
+    }
+    .home .flex .content h3{
+        font-size: 2.5rem;
+    }
+}
+
+@media (max-width:500px){
+    html{
+        -webkit-flow-into: 100%;
+    }
+}
+
